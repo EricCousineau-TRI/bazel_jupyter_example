@@ -13,7 +13,7 @@ import nbformat
 from runfiles import Rlocation
 
 
-WORKSPACE_NAME = "jupyter_integration"
+WORKSPACE_NAME = "bazel_jupyter_example"
 
 # TODO(eric.cousineau): Consider setting
 # `MappingKernelManager.kernel_info_timeout` for `bazel test` running.

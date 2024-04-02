@@ -7,7 +7,7 @@ compile_pip_requirements(
     tags = ["manual"],
 )
 
-# N.B. Relies on Bazel magic to make the package `jupyter_integration`
+# N.B. Relies on Bazel magic to make the package `bazel_jupyter_example`
 # discoverable :(
 py_library(
     name = "module_py",

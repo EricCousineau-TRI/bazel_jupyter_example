@@ -1,4 +1,4 @@
-workspace(name = "jupyter_integration")
+workspace(name = "bazel_jupyter_example")
 
 # Copied from docs.
 

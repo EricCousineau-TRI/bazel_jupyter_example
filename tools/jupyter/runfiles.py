@@ -27,9 +27,9 @@ def SubstituteMakeVariableLocation(arg):
         label = arg[11:-1]
         assert label.startswith("@") or label.startswith("//"), label
         if not label.startswith("@"):
-            label = "@jupyter_integration" + label
+            label = "@bazel_jupyter_example" + label
         elif label.startswith("@//"):
-            label = label.replace("@//", "@jupyter_integration//")
+            label = label.replace("@//", "@bazel_jupyter_example//")
         normalized = label[1:]  # Strip the leading @.
         normalized = normalized.replace("//:", "/")
         normalized = normalized.replace("//", "/")
